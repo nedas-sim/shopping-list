@@ -1,0 +1,30 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.sticky {
+  position: fixed;
+  margin-left: 10px;
+  overflow-y: auto;
+  height: 85%;
+  padding: 30px;
+  padding-left: 0;
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  .sticky {
+    position: inherit;
+    margin: auto;
+    margin-bottom: 70px;
+    width: auto;
+  }
+}
+
+.cartButton {
+  margin-left: 5px;
+  margin-right: 5px;
+}
